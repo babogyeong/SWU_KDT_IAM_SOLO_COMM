@@ -19,7 +19,7 @@ public class RESTApiController {
     // REST 컨트롤러는 크게 json을 리턴하거나, String을 리턴하게 만들 수 있습니다.
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello(){
-        return "안녕하세요";
+        return "안녕히가세요";
     }
 
     // 문자 배열도 리턴할 수 있습니다.
