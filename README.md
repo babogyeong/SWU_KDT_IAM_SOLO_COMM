@@ -12,7 +12,7 @@
 
 - HiperVisor : VMware
 - container : docker
-- OS : ubunt:22.04
+- OS : ubuntu
 - laC : java, Spring, MySql, jenkins, Nginx
 <br/></br>
 
@@ -20,7 +20,8 @@
 
 - 내부망, 외부망 네트워크 구성
 - 컨테이너 구성 (log-server, worker1, worker2, worker3, db-container, jenkins-host)
-- 로그 타 서버로 보내서 모으기, 일정시간마다 메일 보내기
+- 로그 수집후 로그 save-server로 전송, 일정시간마다 크론탭을 이용 메일 전송
+- save-server로 로그 전송이 완료되었을 때 원본 로그파일 삭제
 - 로드밸런싱
 - 무중단배포  
 <br/></br>
