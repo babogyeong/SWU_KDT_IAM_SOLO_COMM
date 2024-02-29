@@ -21,7 +21,6 @@
 - 내부망, 외부망 네트워크 구성
 - 컨테이너 구성 (log-server, worker1, worker2, worker3, db-container, jenkins-host)
 - 로그 타 서버로 보내서 모으기, 일정시간마다 메일 보내기
-- 로그로테이트 
 - 로드밸런싱
 - 무중단배포  
 <br/></br>
