@@ -20,7 +20,7 @@
 
 - 내부망, 외부망 네트워크 구성
 - 컨테이너 구성 (save-server, worker1, worker2, worker3, db-server, jenkins-host, front-server)
-- 로그 수집후 로그 save-server로 전송, 일정시간마다 크론탭을 이용 메일 전송
+- 로그 수집후 로그 save-server로 전송, 일정시간마다(크론탭 이용) 메일 전송(ssh 이용)
 - save-server로 로그 전송이 완료되었을 때 원본 로그파일 삭제
 - 로드밸런싱
 - 무중단배포  
