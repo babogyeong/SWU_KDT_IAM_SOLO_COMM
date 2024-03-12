@@ -16,7 +16,7 @@
 - laC : java, Spring, MySql, jenkins, Nginx
 <br/></br>
 
-## 프로젝트 구성 (수정 필요)
+## 프로젝트 구성
 
 - 내부망, 외부망 네트워크 구성
 - 컨테이너 구성 (save-server, worker1, worker2, worker3, db-server, jenkins-host, front-server
